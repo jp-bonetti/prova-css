@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.cabecalho-superior{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#botao-use-our-api{
+    text-decoration: none;
+    color: #0088CC;
+    font-weight: bold;
+
+}
+
+.botao-cabecalho-superior{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#botao-esquerdo{
+    background-color: #40b3df;
+}
+
+#botao-direito{
+    background-color: #f1c40f;
+}
+
+.cabecalho-inferior{
+    display: flex;
+    background-color: #40B3DF;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.banner{
+    width: 100%;
+}
+
+.featured-in{
+    color: gray;
+    text-align: center;
+    margin: 10px;
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.logos > img {
+    width: 140px;
+}
+
+.tecnologias{
+    margin-top: 50px;
+    width: 100%;
+}
+
+footer{
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 300px;
+    padding-bottom: 50px;
+}
+
+h5{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.footer-esquerdo{
+    display: flex;
+    gap: 200px;
+    margin-right: 150px;
+}
+
+.footer-direito{
+
+}
+
+footer h5{
+    font-size: 17px;
+}
+
+footer li{
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: 25px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.terms{
+    background-color: #444444;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
